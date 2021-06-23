@@ -8,7 +8,11 @@ RUN rustup default stable
 RUN rustup target list --installed
 RUN rustup target add wasm32-unknown-unknown
 
-RUN git clone https://github.com/CosmWasm/wasmd.git && cd wasmd && \
+USER gitpod
+
+# Install wasmd
+RUN mkdir -p /workspace/go && \
+    git clone https://github.com/CosmWasm/wasmd.git && cd wasmd && \
     git checkout v0.15.1 && \
     make install
 
