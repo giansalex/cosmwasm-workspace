@@ -1,6 +1,9 @@
 image:
     file: .gitpod.Dockerfile
 
+tasks:
+- init: git clone https://github.com/CosmWasm/cosmwasm-examples
+
 vscode:
   extensions:
     - matklad.rust-analyzer
