@@ -11,7 +11,8 @@ RUN rustup target add wasm32-unknown-unknown
 USER gitpod
 
 # Install wasmd
-RUN mkdir -p /workspace/go && \
+ENV GOPATH="/workspace/go"
+RUN mkdir -p $GOPATH && \
     git clone https://github.com/CosmWasm/wasmd.git && cd wasmd && \
     git checkout v0.15.1 && \
     make install
