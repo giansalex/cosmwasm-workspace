@@ -12,13 +12,15 @@ After your workspace is ready, follow next steps.
 cargo generate --git https://github.com/CosmWasm/cosmwasm-template.git --name PROJECT_NAME
 cd PROJECT_NAME
 ```
-This create a basic counter smartcontract, but you can make changes for your custom smartcontract. 
+> This create a basic counter smartcontract. 
 
 :point_right: Build your smartcontract
 ```bash
 rustup default stable
 cargo wasm
 ```
-This produce `project.wasm` in `target/wasm32-unknown-unknown/release` directory, that you can download from editor.
+This produce `project.wasm` in `target/wasm32-unknown-unknown/release` directory, that you can download from editor.     
+Follow [this guide](https://docs.junochain.com/smart-contracts/downloading-and-compiling-smart-contracts) to optimize your release.
+
 
 Finally you can upload to [juno chain](https://docs.junochain.com/smart-contracts/uploading-and-interacting#go-cli). :rocket:
