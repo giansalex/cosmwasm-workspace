@@ -16,7 +16,6 @@ cd PROJECT_NAME
 
 :point_right: Build your smartcontract
 ```bash
-rustup default stable
 cargo wasm
 ```
 This produce `project.wasm` in `target/wasm32-unknown-unknown/release` directory, that you can download from editor.     
