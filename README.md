@@ -2,7 +2,7 @@
 
 Build smart contracts on the cloud powered by [gitpod](https://www.gitpod.io/).
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/giansalex/juno-wasm-workspace)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/giansalex/juno-wasm-workspace)
 
 ## Steps
 After your workspace is ready, follow next steps.
