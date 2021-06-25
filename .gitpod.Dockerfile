@@ -8,3 +8,6 @@ RUN rustup default stable
 RUN rustup target list --installed
 RUN rustup target add wasm32-unknown-unknown
 RUN cargo install cargo-generate --features vendored-openssl
+
+USER gitpod
+RUN mkdir juno
