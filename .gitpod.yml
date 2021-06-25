@@ -1,6 +1,9 @@
 image:
     file: .gitpod.Dockerfile
 workspaceLocation: "./juno"
+tasks:
+  - command: |
+      cd /workspace/juno
 
 vscode:
   extensions:
