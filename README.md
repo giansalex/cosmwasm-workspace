@@ -23,3 +23,7 @@ Follow [this guide](https://docs.junochain.com/smart-contracts/downloading-and-c
 
 
 Finally you can upload to [juno chain](https://docs.junochain.com/smart-contracts/uploading-and-interacting#go-cli). :rocket:
+
+### References
+- [Juno chain docs](https://docs.junochain.com/)
+- [Cosmwasm docs](https://docs.cosmwasm.com/)
