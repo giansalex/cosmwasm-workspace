@@ -2,6 +2,7 @@ image:
     file: .gitpod.Dockerfile
 workspaceLocation: "./juno"
 tasks:
+  - init: mkdir -p /workspace/juno
   - command: |
       cd /workspace/juno
 
