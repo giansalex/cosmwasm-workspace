@@ -3,8 +3,7 @@ image:
 workspaceLocation: "./juno"
 tasks:
   - init: mkdir -p /workspace/juno
-  - command: |
-      cd /workspace/juno
+  - command: cd /workspace/juno
 
 vscode:
   extensions:
