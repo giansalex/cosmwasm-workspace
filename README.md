@@ -7,6 +7,7 @@ Build smart contracts on the cloud powered by [gitpod](https://www.gitpod.io/).
 ## Steps
 After your workspace is ready, follow next steps.
 
+:point_right: Close all terminals, and start new one.
 :point_right: Create your smartcontract project.
 ```bash
 cargo generate --git https://github.com/CosmWasm/cosmwasm-template.git --name PROJECT_NAME
