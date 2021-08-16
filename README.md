@@ -22,6 +22,7 @@ cargo wasm
 This produce `project.wasm` in `target/wasm32-unknown-unknown/release` directory, that you can download from editor.     
 Follow [this guide](https://docs.junochain.com/smart-contracts/downloading-and-compiling-smart-contracts) to optimize your release.
 
+![Gitpod demo](https://cdn.giansalex.dev/images/github/juno-gitpod.gif)
 
 Finally you can upload to [juno chain](https://docs.junochain.com/smart-contracts/uploading-and-interacting#go-cli). :rocket:
 
