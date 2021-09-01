@@ -1,4 +1,4 @@
-# Juno Smart Contracts Workspace
+# Cosmwasm Smart Contracts Workspace
 
 Build smart contracts on the cloud powered by [gitpod](https://www.gitpod.io/).
 
@@ -24,8 +24,7 @@ Follow [this guide](https://docs.junochain.com/smart-contracts/downloading-and-c
 
 ![Gitpod demo](https://cdn.giansalex.dev/images/github/juno-gitpod.gif)
 
-Finally you can upload to [juno chain](https://docs.junochain.com/smart-contracts/uploading-and-interacting#go-cli). :rocket:
+Finally you can upload to a chain like [juno chain](https://docs.junochain.com/smart-contracts/uploading-and-interacting#go-cli). :rocket:
 
 ### References
-- [Juno chain docs](https://docs.junochain.com/)
 - [Cosmwasm docs](https://docs.cosmwasm.com/)
